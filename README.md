@@ -65,3 +65,40 @@ return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Toolbar
   }, 0);
 }, _temp), _possibleConstructorReturn(_this, _ret);
 ```
+
+### node_modules/draft-js-inline-toolbar-plugin/lib/plugin.css
+
+original:
+
+```css
+.draftJsToolbar__toolbar__dNtBH {
+  left: 50%;
+  -webkit-transform: translate(-50%) scale(0);
+          transform: translate(-50%) scale(0);
+  position: absolute;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px 0px rgba(220,220,220,1);
+  z-index: 2;
+  box-sizing: border-box;
+}
+```
+
+changed:
+
+```css
+.draftJsToolbar__toolbar__dNtBH {
+  left: 50%;
+  -webkit-transform: translate(-50%) scale(0);
+          transform: translate(-50%) scale(0);
+  position: absolute;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px 0px rgba(220,220,220,1);
+  z-index: 2;
+  box-sizing: border-box;
+  width: 146px;
+}
+```
